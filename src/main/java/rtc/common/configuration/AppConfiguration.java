@@ -34,7 +34,17 @@ public class AppConfiguration {
     public GroupedOpenApi publicApi() {
         return GroupedOpenApi.builder()
                 .group("springboot-public-apis")
-                .pathsToMatch("/api/**")
+                .pathsToMatch("/api/**","/api/actuator/**")
                 .build();
     }
+
+    @Bean
+    public GroupedOpenApi actuatorApi() {
+        return GroupedOpenApi.builder()
+            .group("actuator-apis")
+            .pathsToMatch("/actuator/**")
+            .build();
+    }
+
+
 }

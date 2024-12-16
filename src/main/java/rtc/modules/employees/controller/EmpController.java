@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -52,12 +53,12 @@ public class EmpController {
         return ResponseEntity.ok().body("this is Just a Start "+hello);
     }
 
-    @RequestMapping(value = "1")
+    @RequestMapping(value = "1", method = RequestMethod.GET)
     public String getStart(){
         return "sandy";
     }
 
-    @RequestMapping(path = "2")
+    @RequestMapping(path = "2",method=RequestMethod.TRACE)
     public String getEnd(){
         return "lets end this";
     }
