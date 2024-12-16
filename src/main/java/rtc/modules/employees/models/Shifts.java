@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class Shifts {
 
     // @Id()
-    @Id
+    // @Id
     private int staffId;
 
 
