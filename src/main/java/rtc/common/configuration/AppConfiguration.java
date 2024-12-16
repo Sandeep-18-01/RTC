@@ -1,5 +1,6 @@
 package rtc.common.configuration;
 
+import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,11 +30,11 @@ public class AppConfiguration {
         return WebClient.builder();
     }
 
-    // @Bean
-    // public GroupedOpenApi publicApi() {
-    //     return GroupedOpenApi.builder()
-    //             .group("springboot-public-apis")
-    //             .pathsToMatch("/api/**")
-    //             .build();
-    // }
+    @Bean
+    public GroupedOpenApi publicApi() {
+        return GroupedOpenApi.builder()
+                .group("springboot-public-apis")
+                .pathsToMatch("/api/**")
+                .build();
+    }
 }

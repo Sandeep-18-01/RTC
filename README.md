@@ -10,7 +10,9 @@
 6) 
 
 
-
-
+    # Initial Set Up
+  1) Run mvn clean install
+  2) run mvn spring-boot:run
+  3) http://localhost:8080/RTC - access the WebSite
     # DB Design
   1) 
