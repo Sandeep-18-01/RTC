@@ -1,4 +1,4 @@
-package rtc.modules.employees.models;
+package rtc.modules.employees.DtoModels;
 
 import org.springframework.data.annotation.Id;
 

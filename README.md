@@ -2,7 +2,7 @@
  Own Transport Application
 
  # Clarities
-1) Entities and DTOs. are used seperetaly for seperation of concerns. They can be same but used to serve diff purpose, So its wise to use them even though it is code duplicity
+1) Entities(Tables) and DTOs(Models). are used seperetaly for seperation of concerns. They can be same but used to serve diff purpose, So its wise to use them even though it is code duplicity
 2) WebClient and restTemplete differs in Perofrmnace . restTemplete is less paerformance and used in Single Thread environmanet and it blocks the main thread and delays the response. While WebCleint is Asynchronus and supported in SpringBoot. WebCleint >>>> RestTemplete
 3) Spring Confuration class is by default singleton. So no need to create  singleton class. Beans created in  config class are also singlton and spring manages their life cycle.
 4) Bean properties - when creating a bean , there should not be any methods with parameters. If u want to invoke some params, they should be from app.props or configyuration.props file to fetch those params. The params should not be in arguments (String a, int b)❌❌
