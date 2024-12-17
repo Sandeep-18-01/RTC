@@ -1,4 +1,4 @@
-package rtc.modules.employees.models;
+package rtc.modules.employees.DtoModels;
 
 import org.springframework.data.annotation.Id;
 
@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class Shifts {
 
     // @Id()
-    @Id
+    // @Id
     private int staffId;
 
 
