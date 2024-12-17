@@ -11,6 +11,6 @@ C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main
 C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\modules\employees\DtoModels\Employeedetails.java
 C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\modules\employees\DtoModels\Payroll.java
 C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\modules\employees\DtoModels\Shifts.java
-C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\modules\employees\EntityTables\staffEntity.java
+C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\modules\employees\entityTables\StaffEntity.java
 C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\modules\employees\Repository\ShiftsDAO.java
 C:\Users\bhsaikir.CORP\Desktop\Practice\RTC_Application_Spring_Boot\RTC\src\main\java\rtc\RtcApplication.java

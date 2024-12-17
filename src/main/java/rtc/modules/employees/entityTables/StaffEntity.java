@@ -10,7 +10,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.*;
-
+import rtc.common.enums.StaffRoles;
 @Entity
 @Table(name = "staff")
 @Data // Combines @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor
